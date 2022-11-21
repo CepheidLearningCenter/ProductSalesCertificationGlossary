@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="true" skip_nav_enabled="true" chromeless="false" outputtype="en" theme="classic">
+  <layouts>
+    <layout name="npnxnanbnsnfns00000000001" font="Arial" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Product Sales Certification Glossary" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="replay" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="search" value="false" />
+          <option name="enableKeyboardShortcuts" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000000001">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x094B8E" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x094B8E" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x409ACE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4392D1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x145086" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x39A1CB" alpha="100" stop="0" />
+                <color rgb="0x154694" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x154694" alpha="100" stop="0" />
+                <color rgb="0x39A1CB" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x053A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x154B82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x155EA7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3E98D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x154B82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3E98D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x236EA7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x236EA7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78B6DB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FA7D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x053A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3489C3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2160A8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A6FAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x165291" alpha="100" stop="0" />
+                <color rgb="0x459CD2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+                <color rgb="0x053A69" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5DA1CE" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C7CBB" alpha="100" stop="0" />
+                <color rgb="0x1D5E9B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5EA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C88C0" alpha="100" stop="0" />
+                <color rgb="0x3368AC" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2977B8" alpha="100" stop="0" />
+                <color rgb="0x215DA5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D9EE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x2C74B5" alpha="100" stop="0" />
+                <color rgb="0x3181BC" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E4E8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3489C3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8AD3FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D5E9B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x39A1CB" alpha="100" stop="0" />
+                <color rgb="0x154694" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x154694" alpha="100" stop="0" />
+                <color rgb="0x39A1CB" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F84BC" alpha="100" stop="0" />
+                <color rgb="0x1F5BA3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C599A" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x145086" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4392D1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B6EAB" alpha="100" stop="0" />
+                <color rgb="0x094784" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D8DCE" alpha="100" stop="0" />
+                <color rgb="0x3D8DCE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x0079C1" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E77B8" alpha="100" stop="0" />
+                <color rgb="0x094B8E" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x063A6A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3B85BE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2771B3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3790D7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x2363A9" alpha="100" stop="0" />
+                <color rgb="0x266DB2" alpha="100" stop="128" />
+                <color rgb="0x2363A9" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0079C1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000000001">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Arial">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5UtaWRgSkZw" displaytext="Introduction" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6mLV0wVbhjY" displaytext="027/nap1/b1" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6R7r2SzhOJu" displaytext="ABL 1 gene" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.66a1zq2l432" displaytext="Acid-fast bacilli " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Vktr9BhHmq" displaytext="Acinetobacter baumannii" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6rpA4vbxKEH" displaytext="ACP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uJjr7j2scw" displaytext="Active disease" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6hYyLXktyKI" displaytext="Acute Lymphoblastic Leukemia (ALL)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5qjqkDdyr6G" displaytext="Acute Myeloid Leukemia (AML)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5vEHQ4pkE6F" displaytext="Adenine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6EYUf9s8UMV" displaytext="Adenosine triphosphate (ATP)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6EDLgZODWSn" displaytext="ADF" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6oy7cTtV1CD" displaytext="AES-256" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6NaZHTOKPwK" displaytext="Algorithmic Testing" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6B0hmCFjPUJ" displaytext="Allele" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bF5cowvQyA" displaytext="Allogeneic Transplantation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6RmFINICbzd" displaytext="Amoxicillin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5w1zIwIsW1v" displaytext="Amplicon" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.638cDpYgjJG" displaytext="AMR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6FmcJybqLvt" displaytext="AMS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5xoB8I9UBdn" displaytext="Anaerobic" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5irqdkyNSFS" displaytext="Antepartum" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.68cXLXATrqv" displaytext="Antibiotics" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6TFGwdyP9RO" displaytext="Antibody" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5mqbUg2HMKM" displaytext="Anticoagulant" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Rgwwg6k2VB" displaytext="Antigen" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.665XeVs5uZn" displaytext="Antimicrobial susceptibility test (AST)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.68xLB8siDM8" displaytext="Antimicrobials" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6SGIpNBDkUT" displaytext="Antiviral Chemoprophylaxis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5YjsfdBwK92" displaytext="Aptamer" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5eOiQ6o3Rwv" displaytext="ART" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZliVSUe867" displaytext="ASC-US" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Unm43TE2qb" displaytext="ASM" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pwUKkfZLKf" displaytext="ASP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62gpkXWxtNS" displaytext="ASR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5shJRTbmmW2" displaytext="Assay" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6NwCbCdA5b8" displaytext="Bacilli" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5wKjUjOxFTb" displaytext="Bacteremia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6RKhkbaCMtG" displaytext="Bacteria" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5j7yqwir4zk" displaytext="BC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.641jExvpYOp" displaytext="BCR gene" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IPCrVpPiYT" displaytext="BCR-ABL" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5gkOYVE8Azs" displaytext="Bedaquiline" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6fVnwYw8D30" displaytext="Beta-hemolysis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Af5uT2QuKk" displaytext="Beta-lactam antibiotics" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6nwszYdM0aS" displaytext="Beta-lactamases" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IewCCWorv2" displaytext="Binary toxin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6c9QEywKGFu" displaytext="Blood Agar Plate (BAP)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bpU0GyLVje" displaytext="Bloodstream Infections (BSI)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6QRzgukwasi" displaytext="Bosutinib" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uBA3qiIIZN" displaytext="Bristol stool chart" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pTbMI2lqge" displaytext="Bronchiolitis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6pC4xyvPBQw" displaytext="C. diff" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5fdvCWb1g1c" displaytext="CA-MRSA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IXHMgbXajg" displaytext="Carbapenem" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6LwHvyGyYuj" displaytext="Carbapenem resistance" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Z7AeSeDJA2" displaytext="Carbapenemase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5r3NsQWErUR" displaytext="Carbuncle" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uyRppYtuGX" displaytext="CCU" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6cS01IFrZGz" displaytext="CDC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5qgQGNo2M71" displaytext="CDI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6kVv5eOLB2V" displaytext="cdtA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5cAh94VS4h0" displaytext="cdtB" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.67a0f62fmHq" displaytext="CE-IVD" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5eXC6RReHjK" displaytext="Centralized testing environment" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ODvYL6ynpc" displaytext="Cepheid C360" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5khOYFNm07Y" displaytext="Chlamydia infection" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ATRGqXt5Ww" displaytext="Chlamydia trachomatis (CT) " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5hmnYJnwTYc" displaytext="Chocolate agar" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6S7OOuQbCBR" displaytext="Chronic myelogenous leukemia (CML)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5oQQqNgZGHe" displaytext="CID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6b3R71ayE4P" displaytext="CLIA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bCbcvhv37Q" displaytext="CLIA-waived test" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5juVdrE0UiC" displaytext="Clostridioides difficile" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6DvDzPzWPuZ" displaytext="CMS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5rjm9yU9YWj" displaytext="Coagulation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6jiul4B2UHY" displaytext="Coagulation cascade" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5s2Sa9BUN98" displaytext="Coagulation factors" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6cqC7s3q8y8" displaytext="COC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5n73hoNB4z2" displaytext="Colitis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6UYE6qCidiM" displaytext="Collagen" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5fWXKYrqEnz" displaytext="Colonization" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bXsNAU5F5I" displaytext="Complete molecular remission" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5iMl3aXiEc2" displaytext="Complete remission" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6UGFv4NDSQR" displaytext="Component" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5rUuYNEa0mi" displaytext="CoN Staph" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eQjGsmzaFR" displaytext="Control system validation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6D3g3j6iBNQ" displaytext="COPD" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6aVJnmHZ8Hd" displaytext="Coronaviruses" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.67CuR8Oywlc" displaytext="COVID-19" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6MxCQv516Qw" displaytext="CP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6TSAn6qwoWW" displaytext="CPE" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5j0oEHKLOHC" displaytext="CPO" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IrWme8qcJa" displaytext="CRE" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5t6SaRn0dMi" displaytext="CRO" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6hgEBULDKiC" displaytext="CT NG" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6h0zf7IBfSE" displaytext="CT pulmonary angiography" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5j0F9V5sbM9" displaytext="CW" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Vv1ctJXnHD" displaytext="Cytokine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6i52Rg9N7cz" displaytext="Cytology" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6fGVB2mCShU" displaytext="Cytosine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6OLdXUe9cNd" displaytext="Cytotoxicity" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6rS82EjoVxj" displaytext="Dasatinib" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5wCRYMlgMAu" displaytext="DBS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6F55dxPbAyN" displaytext="Decentralized testing environment" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5tc3HCbDwTf" displaytext="Deep vein thrombosis (DVT) " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ax6PVW6egg" displaytext="DFA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6WgMnwQczgK" displaytext="Diarrhea" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5hm1q191ncM" displaytext="DNA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6lrpClTq3KS" displaytext="DOH" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6rmudWmlfqv" displaytext="DOT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bz9E9p4JI4" displaytext="Drug susceptibility testing " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62zVtjsKHCR" displaytext="Dx" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.65nCIEnFlqL" displaytext="Dysfibrinogenemia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5giOuHJVusm" displaytext="EAT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6GlJA2tT7pR" displaytext="ECDC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6gNKJtCZQvI" displaytext="ED" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6SupW5iKM7M" displaytext="EDTA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5veDnxGVC6K" displaytext="EIA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6K5jC2FeXPR" displaytext="EID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5g0VKhAzE4N" displaytext="ELISA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6iqLwZ4XwgP" displaytext="Embolus" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5w0AAlQ0cLD" displaytext="EMEA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5kcz3ysJVMR" displaytext="EMENA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6kW1XD24Vz4" displaytext="Emergency use authorization (EUA)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.63Y5bwDv3E7" displaytext="Empiric therapy" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JrBLQPIPrH" displaytext="EMR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6cSOG25Rnyx" displaytext="Encryption" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5xaSHyPDAQS" displaytext="Endocarditis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.61ytHjI5QAN" displaytext="Endocervical" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6UVP6HfjIyK" displaytext="Endocervix" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6XtH6k7ULH4" displaytext="Endothelial cell" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6btqoQLVmWM" displaytext="Enterobacterales" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5i3Bcn1vjKS" displaytext="Enterococci" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bAil6gKNK1" displaytext="Enzyme immunoassay" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6a8ts5Y3gPU" displaytext="EOGBS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6BCVYGE0uXO" displaytext="EPF" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6cyJ98oLl4f" displaytext="Escherichia coli" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6caeI7ijlrs" displaytext="ESCMID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.60uMGpT0K9i" displaytext="ESβL" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.60hKNaQoYkz" displaytext="ETH" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6oe3qMiCGy0" displaytext="Ethambutol (EMB) " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6NvdCnCYVlq" displaytext="EV" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Cg1vJQztGj" displaytext="EZR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5dknyKSyfGP" displaytext="Factor II (FII)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eo5YsZpyxr" displaytext="Factor II mutation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5riCnFKAev9" displaytext="Factor V (FV)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uB8nVL5Htn" displaytext="Factor V Leiden " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5b6eUNK1xdj" displaytext="Factor VIII" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZNGclKuVFt" displaytext="Factor X" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.67wBe72KeIl" displaytext="Factor Xa" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5gBufMqBVxG" displaytext="FAQ" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6gcBuEqlQwI" displaytext="FDA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6aS2pY0dORa" displaytext="Fibrin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.69dI6UhpFP5" displaytext="Fibrinogen" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5xfnK1IHaPR" displaytext="First catch" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6qkWoDteSrG" displaytext="First-line antibiotics" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ausdp6s5jB" displaytext="Flu (Influenza)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6YtFHzOwt92" displaytext="Fluoroquinolones" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5jcYvASTkFr" displaytext="FRET (Förster Resonance Energy Transfer)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5a2i3R1KJF2" displaytext="Fungi" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.645e27NFaT1" displaytext="GAS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6nouRCcZden" displaytext="Gastrointestinal tract" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5vo5qfS34JZ" displaytext="GBS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6N86T8QJbyx" displaytext="GDH" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6oCmv4fzzHN" displaytext="Genital tract" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6nRYXqH8Hep" displaytext="Genotype" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.687FwVtSFfV" displaytext="GI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5h1wa9BiFfB" displaytext="Gonorrhoea​" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.66Jw6s1FVMZ" displaytext="GPC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.65Xkfo3PXng" displaytext="GPCC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IXvY42Reer" displaytext="Gram stain" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5cDJW8hZChd" displaytext="Gram-negative bacteria" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pItPjIXJ88" displaytext="Gram-positive bacteria" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JcOMlvdwtR" displaytext="Group A strepococcal infection (GAS)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Z9B0qkYciq" displaytext="Guanine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5qS9Z5iaKU8" displaytext="H1N1" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6FsE7Zxdm49" displaytext="HA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6TVbna51AFE" displaytext="HAI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5o9SmI1C0ip" displaytext="HA-MRSA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.672zhMm6mbg" displaytext="HBV" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5aLUBSVqUsA" displaytext="HC-CDI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JVpR5lZeC8" displaytext="HCW" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.60sDKqSr1Zi" displaytext="Healthcare-associated infection" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5YSTkP60MnF" displaytext="Hemagglutinin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6KuvCoPZnC1" displaytext="Hemophilia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6VsHmFabFLp" displaytext="Hemostasis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ABAzrkAB84" displaytext="Heparin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6dlMHJ0Zhb9" displaytext="Hepatitis B" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6lYUf345bZT" displaytext="Hepatitis C" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.68EqEKVbPdA" displaytext="Heterozygous" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6kmizjNbkGs" displaytext="High burden developing country (HBDC)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6lFuPjNs7HJ" displaytext="HIV-1" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5dt4PX7xKqS" displaytext="HIV-2" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.65OQmENu3Ta" displaytext="HMO" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pF7bGZItzU" displaytext="Homocysteine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5ZTg8StwnqQ" displaytext="Homozygous" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5jwZd2VDUak" displaytext="HPV" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6YhMB1jzZcJ" displaytext="HSV 1&amp;2" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62Hz1fX4zbc" displaytext="ICU" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6H3QO7z3HRP" displaytext="ID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5nEYL8zHdpU" displaytext="IDSA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6BHMetPEsR4" displaytext="Imatinib" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6OwE89wmuz5" displaytext="IMP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5XzGAC0DviR" displaytext="In vitro" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6E1NAU72zLJ" displaytext="In vitro diagnostic product (IVD)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5iNVEawgeQP" displaytext="Infertility" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6nuEuQtBVPK" displaytext="Inflammatory bowel disease " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5wPepkr0kgE" displaytext="InhA promoter" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6XgZqraMkdJ" displaytext="Interferon alpha " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5c2NGo2oqU8" displaytext="Interferon-alfa therapy " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5ttXKZsQIZB" displaytext="Intrapartum" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ifvEmTF7J1" displaytext="IP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5zKNYdJ6TBn" displaytext="ISO 27001" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6g44trFnY42" displaytext="Isoniazid" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.630l15DRM7X" displaytext="IVD" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5gFLP0Wbad0" displaytext="Kinase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5vARTPu7bIj" displaytext="Klebsiella pneumoniae" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uRKzjh4Ovr" displaytext="KPC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.63WBKvyvwae" displaytext="Leukemia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.63PdF29HqrG" displaytext="Limit of detection (LOD)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6q5CWe3syn9" displaytext="LIS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5xsU9lR1f9f" displaytext="Lysis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5gK3H51GwY8" displaytext="MBCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ggYewNo1lj" displaytext="MDR-TB " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZISrUf4O4r" displaytext="mecA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5yJiaDhPovw" displaytext="mecC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Wc3FPfQShH" displaytext="Meningitis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6HnOTrXBrZq" displaytext="Microbes" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eCV0vLRBQR" displaytext="Microbiome" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.68M2j7Jv83b" displaytext="Microscopy" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5hS70OwISS9" displaytext="Minimal residual disease" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.69v1NrnoRv5" displaytext="Moderate or high complex testing" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6H7tK7AhFn4" displaytext="Molecular beacons" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Uq6KMBeI5Y" displaytext="MRSA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5d8hf01uxd6" displaytext="MSM" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6HPlIQty99M" displaytext="MSSA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6loUoDLM77f" displaytext="MTB Complex " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.67UvmkyR0OU" displaytext="MTBC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6OItM9koO3W" displaytext="MTHFR gene" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6WscpVhhVzv" displaytext="Multidrug-resistant germs" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5yU3LKuv4CL" displaytext="Multi-tenant database storage" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6LYUwA6draP" displaytext="Mutation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eMEbgh3JkN" displaytext="Myeloid" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5f0xNcYbXkh" displaytext="Myocarditis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IUgdBljWeG" displaytext="NAAT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5fMmRCWe0oY" displaytext="Nasopharyngeal" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5geXhMkSEXf" displaytext="Nasopharyngeal swab" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5aNp1812iqP" displaytext="NDM" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Y7zYrpQAYN" displaytext="NED" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.69L5Cwr2APM" displaytext="Neisseria gonorrhoeae (NG)​" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6HmflPMCyAe" displaytext="Neonatal" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5nE6qfsTWIu" displaytext="Nested real-time PCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5nGbn1INRKb" displaytext="Neuraminidase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6euwxueUdxF" displaytext="NHSN" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Wi2aOCfNYU" displaytext="Nilotinib" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5cFOgtdtL4s" displaytext="Non-motile bacteria" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.632mHLUKU80" displaytext="Non-oncogenic" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62bi0EYlzfE" displaytext="Nosocomial infection" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.61dwwbuBTZk" displaytext="NPM1 gene" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6haeBYQVZsI" displaytext="Nucleotide" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bJaI6e04Dl" displaytext="Omacetaxine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bbaiUti7zT" displaytext="Oncogene" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6UMXUIEgtdE" displaytext="Oncogenic" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bGj4Y2TLm4" displaytext="Oseltamivir" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5l3Or2KgQ6e" displaytext="OXA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5btNU55FzbA" displaytext="Pap smear" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5cQmUjzggVA" displaytext="Parasites" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5vejuKRaQS5" displaytext="Pathogen" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Jg65pHaRGK" displaytext="PCC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5s3Qkw0hJWx" displaytext="PCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5c0UzEguNKT" displaytext="Penicillins" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eseCALwWc5" displaytext="Peramivir" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6P6JjPGGw02" displaytext="Pertussis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6lCznxtFCfd" displaytext="Pharyngeal" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5jYiAorfDAq" displaytext="Pharyngitis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5rBAG41X6EL" displaytext="Pharynx" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6CmFl1dTNGL" displaytext="Phenotypic" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6dZx5iMUjLX" displaytext="Philadelphia chromosome" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZsVfGP9Itn" displaytext="Phospholipid" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6rTaaF5K7S5" displaytext="PI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5eLANvdqNob" displaytext="PID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Q4dxezLMkR" displaytext="PIS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6S6LURv3Pjf" displaytext="Platelets" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6nJ416J0OS9" displaytext="Pneumonia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bO03H45Mq8" displaytext="POC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5kQ34x0HEQL" displaytext="POL" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Uu3ikEtR6T" displaytext="Polymerase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ItfHWSMUn8" displaytext="Ponatinib" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bSndpvQLl3" displaytext="Preeclampsia" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5wUS5P3y1H8" displaytext="PrEP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZrzPOLq3xE" displaytext="Pre-XDR-TB " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5s3Tpxg3FcO" displaytext="Protein C " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6A69dGwm0x5" displaytext="Protein S " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JRxSmNSHrm" displaytext="Prothrombin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5zuEKXYKbA5" displaytext="Prothrombinase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JSt1dEPQgT" displaytext="Pseudomonas aeruginosa" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5ivXZaV0KSS" displaytext="Pseudomonas spp." expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6ZUUIA6mlum" displaytext="Pulmonary angiography" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5fXM1zCZay1" displaytext="Pulmonary embolism (PE)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6L6KNYy1Wab" displaytext="Pyrazinamide (PZA) " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6IoG6sWg96j" displaytext="QC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Wj58OcGza8" displaytext="qPCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5kCd8s2PSnK" displaytext="RADT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5u2zuMvwtXG" displaytext="Rapid antigen detection tests " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5eDD3ecC7H5" displaytext="Reflex testing" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.60qJ6iCqOQb" displaytext="Respiratory syncytial virus" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6kANlD6xhob" displaytext="Retrovirus" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6gY2MWhCVSv" displaytext="Reverse transcription real-time PCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6JO15ieMBfV" displaytext="Ribonucleic acid" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6DOBW0jfami" displaytext="RIDT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Mp2LGg1Prm" displaytext="RIF" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6K3ZKfFkCsO" displaytext="Rifampin (RIF)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6cv26ZO6XHL" displaytext="RNA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6kycNTB8JOb" displaytext="RSV" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6FghSMhKzRd" displaytext="RT-PCR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6rpTw04LiwD" displaytext="SA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6pAYImfpzhq" displaytext="SARS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6DB3LphiUAa" displaytext="SARS-CoV-2" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5xI6FQUmYrk" displaytext="SCCmec" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5YuTMxkJtPa" displaytext="SCIP" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6pL1HVOTciy" displaytext="Scorpion" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6g1zfqFzotR" displaytext="Sepsis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pD2WAJA78L" displaytext="SHEA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6eyxJJMKS56" displaytext="SIR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5pscWrWf39s" displaytext="SLID" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5befyp5tqXS" displaytext="SPA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5mDfVf14uoz" displaytext="SPC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6L0OmrNfKB1" displaytext="Sputum" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6bDSMWwJ7XV" displaytext="SSI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5dJeO7oHLXI" displaytext="SSTI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6hhHxH4J9an" displaytext="STI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.68dnZyS4FTi" displaytext="Streptococcus pyogenes" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5uDlQRbFDq6" displaytext="t(9;22)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6A1yW4Ve70c" displaytext="Taq polymerase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5tYSq3DJIgF" displaytext="Taqman probe" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5l615LLWqg0" displaytext="TAT" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6lukLRSU22S" displaytext="TB" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62uNL7398Iq" displaytext="TcdA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6YlUtHIQqOx" displaytext="TcdB" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6VNjWA9LRot" displaytext="Terms" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Bdtn4fF1am" displaytext="Thrombectomy" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.63c3q8sWwl0" displaytext="Thrombin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6TReP0lQnSQ" displaytext="Thromboembolism" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5XDgh2qM95d" displaytext="Thrombophilia " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5dkYfrYsfSu" displaytext="Thrombosis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6As6VAoJwEp" displaytext="Thromobolytic" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.694AtzeqePJ" displaytext="Thymine" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6LEWzvWcSqd" displaytext="Tissue culture cytotoxicity test" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5ywT312DvDD" displaytext="Tissue factor" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.65nEpVIpqQp" displaytext="TKI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5dAkXoPTjE2" displaytext="TKI mutation testing" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5WOPho24qJX" displaytext="Toxigenic culture" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6J8hFGaBInD" displaytext="Trachomatis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6qpMl80K7KZ" displaytext="Translocation" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5zcc25aZSR1" displaytext="Trich" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6HqLHaKUCOR" displaytext="Trichomonas vaginalis (TV)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6qfqea2mBgi" displaytext="Trichomoniasis" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5euflFgGnFn" displaytext="TSL 1.2" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bbxDTVv6qp" displaytext="TTR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.67O3a625IBp" displaytext="TV or TVI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5qtoFGxlH3e" displaytext="Tyrosine kinase" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5Yh7SoUVNCf" displaytext="Tyrosine kinase inhibitor (TKI)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6V0KFwkueNp" displaytext="Uracil" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Z2oQqLTjE0" displaytext="UTI" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5ZIDq5uOfii" displaytext="VA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.60G2WWED3iQ" displaytext="VAMC" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Fc0twDFJSy" displaytext="VanA" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6mU8DCeWUK9" displaytext="VanB" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5bi4QGoL6ms" displaytext="Vancomycin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Y12xizfGG8" displaytext="Venous thromboembolism (VTE)" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5zvvQeflFiX" displaytext="Ventilation-perfusion (V/P) scan " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5l9Te8QaNCx" displaytext="VIM" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6jkd9qU33MX" displaytext="Viral load" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6QisJDGMVPe" displaytext="Virus" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6g6V3P4xgRM" displaytext="Virus variant" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.66vlOrzuEDU" displaytext="VRE" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6VpTCESpFLK" displaytext="Warfarin" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5WtkEnpEYA5" displaytext="WB" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6m8KfLQbtvy" displaytext="WGS" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6CY4at3LHj6" displaytext="WH/SH" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6GtjHNaqKbJ" displaytext="WHO" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.62tvQJthyNq" displaytext="XDR" expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.6Kpcsgi0ZvW" displaytext="XDR-TB " expand="false" type="action" />
+        <slidelink slideid="5VIFCjcsnnZ.6dlhM4jwkH0.5zhteuDXD8F" displaytext="Zanamivir" expand="false" type="action" />
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
