@@ -1,0 +1,2 @@
+# ProductSalesCertificationGlossary
+ Glossary
